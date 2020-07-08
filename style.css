@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+.display{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, blue 0%, green 100%);
+
+}
+#ball{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top:5%;
+    left:50%;
+    background-color: red;
+}
+#rod-1,#rod-2{
+    width: 200px;
+    height: 18px;
+    position: relative;
+    top: 0;
+    left:45%;
+    background-color:black;
+}
+#rod-2{
+    top:93.35%;
+}
+#score-board,#high-score{
+    position: absolute;
+    top:45%;
+    left:45%;
+    font-size: 2rem;
+    font-weight: bolder;
+    color:black;
+}
+#high-score{
+    top: 52%;
+    left: 47%;
+    font-size: 1.5rem;
+}
+
